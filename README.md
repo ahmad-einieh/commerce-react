@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# Commerce React
+
+A React storefront-learning UI with a home slider, product grid, product-detail routes, and an about page. Products are fetched from Fake Store API; this is not a complete checkout/payment system.
+
+## Project setup
+
+With Node.js/npm compatible with `package.json`, run `npm ci` and `npm start`. `npm run build` creates the frontend bundle; `npm test` runs configured tests. Product browsing needs network access to `https://fakestoreapi.com`.
+
+`src/component/ProductList.js` fetches products and `src/App.js` registers `/`, `/about`, and `/ProductDetails/:productid`. Error/loading handling is limited. Build/tests, dependency compatibility, and external API availability were not tested for this documentation refresh.
+
+## Original Create React App reference
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
